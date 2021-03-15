@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/HAbitsLab/habitslab.github.io.git
+	branch = hugo-academic-build

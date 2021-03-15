@@ -1,7 +1,7 @@
 # Site Settings
 name: Habits Lab
 title: Habits Lab | Tech based health research.
-description: Passive sensing data analytics- Paving the way towards personalized medicine 
+description: Passive sensing data analytics- Paving the way towards personalized medicine
 tags:
   - mhealth
   - health
@@ -17,18 +17,18 @@ menu:
   - title: About
     url: /about
   - title: Team
-    url: /team   
+    url: /team
   - title: Projects
     url: /projects
   - title: Publications
-    url: /publications    
+    url: /publications
   - title: Contact
     url: /contact
   # - title: Feed
   #   url: /feed.xml
 
 # Director About Section
-about_title: Director of Lab - Nabil Alshurafa 
+about_title: Director of Lab - Nabil Alshurafa
 director_profile_image: /assets/img/director.jpg
 director_overview: Ph. D, Director of HAbits Lab, Northwestern University, Preventive Medicine, Feinberg School of Medicine, Computer Science, McCormick School of Engineering
 director_content: | # this will include new lines to allow paragraphs
@@ -49,7 +49,7 @@ twitter_username: habitslab             # Social icon in footer
 github_username: HAbitsLab                 # Social icon in footer
 
 posts_on_home: 3
-tweets_on_home: true  
+tweets_on_home: false
 
 # Posts Settings
 show_time_bar: false
