@@ -1,9 +1,10 @@
 ---
-title: Internal Project
-summary: An example of using the in-built project page.
+title: Explainability AI
+summary: De-mystifying ML
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- machinelearning
+date: "2021-03-15T00:00:00Z"
+author: tim
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +17,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/habitlab
 url_code: ""
 url_pdf: ""
 url_slides: ""
