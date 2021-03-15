@@ -1,0 +1,122 @@
+# Site Settings
+name: Habits Lab
+title: Habits Lab | Tech based health research.
+description: Passive sensing data analytics- Paving the way towards personalized medicine 
+tags:
+  - mhealth
+  - health
+  - technology
+  - machine learning
+  - research
+# email: ttruty@gmail.com
+disqus_username: habitslab # OTHER COMMENT SITE
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Team
+    url: /team   
+  - title: Projects
+    url: /projects
+  - title: Publications
+    url: /publications    
+  - title: Contact
+    url: /contact
+  # - title: Feed
+  #   url: /feed.xml
+
+# Director About Section
+about_title: Director of Lab - Nabil Alshurafa 
+director_profile_image: /assets/img/director.jpg
+director_overview: Ph. D, Director of HAbits Lab, Northwestern University, Preventive Medicine, Feinberg School of Medicine, Computer Science, McCormick School of Engineering
+director_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add links and highlight things <mark>like this</mark>.
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+# facebook_username: facebook_username
+# instagram_username: instagram_username
+# linkedin_username: linkedin_username
+# medium_username: medium_username
+
+# SOCIAL PROFILES
+email: habitslabnu@gmail.com         # Social icon in footer
+twitter_username: habitslab             # Social icon in footer
+github_username: HAbitsLab                 # Social icon in footer
+
+posts_on_home: 3
+tweets_on_home: true  
+
+# Posts Settings
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-177947667-1"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v0.0.1
