@@ -1,32 +1,40 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# HABits Lab Website design
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+This is the repo to edit the github.io page for the lab.
+Uses the Hugo [Academinc Theme](https://themes.gohugo.io/academic/)
+[Hugo Commands](https://gohugo.io/commands/)
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+The deployed page is a submodule of this repository.
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## Overview:
+1. Download and install all prerequisites:
+    - https://wowchemy.com/docs/getting-started/install-hugo-extended/
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+2. Clone this repository with all submodules:
+    - `git clone --recurse-submodules https://github.com/HAbitsLab/habits_lab_webpage.git`
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+3. Test and develop locally:
+    - cd into repository
+    - use command `hugo server`
+    - you can visit local server at localhost:1313
 
-## Crowd-funded open-source software
+4. Build:
+    - To build static page with hugo use command `hugo`
+    - This builds site to the "public" directory where the github.io submodule is located
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+4. Deploy:
+    - Commit changes to webpage edit repo
+    - cd into public directory, this is the submodule for the deployable page and add and commit changes.
+    - after a few minutes to changes should propagate to habitslab.github.io
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+## Edit pages:
+1. Create new content with hugo commands
+    - To create a new project use the command: `hugo new  --kind project project/TestProject`
+    - To create a new publication `hugo new  --kind publication publication/TestPublication`
+    - To create a new team member `hugo new  --kind authors authors/Test`
+      - This creates the directory and the index markdown that can be edited.
+      - To add an image, add a jpg named "featured.jpg" to the directory
+      - In the index.md edit content, i.e authors, tags
+2. Can edit existing content by editing the markdown
 
-## Ecosystem
-
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
-
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
-
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+> REMEMBER TO BUILD WITH `hugo` COMMAND AND PUSH TO SUBMODULE TO DEPLOY CHANGES
