@@ -3,9 +3,9 @@
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = false  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 68  # Order that this section will appear.
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
 title = "Meet the Team"
 subtitle = ""
@@ -25,7 +25,7 @@ subtitle = ""
   show_social = false
 
   # Show user's interests? (true/false)
-  show_interests = true
+  show_interests = false
 
 [design.background]
   # Apply a background color, gradient, or image.
