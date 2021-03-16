@@ -42,4 +42,8 @@ The deployed page is a submodule of this repository.
     - All of the publication pdfs are located here
     - I data from the original habits lab webpage was saved to json. This is where tags for publication pages can be changed.
 
+4. Update news feed
+    - News feed data can be updated by editing [newlist.dat](content\newslist.dat)
+    - The top 5 will show on home screen, the others will show when "All news" link is selected.
+
 > REMEMBER TO BUILD WITH `hugo` COMMAND AND PUSH TO SUBMODULE TO DEPLOY CHANGES
