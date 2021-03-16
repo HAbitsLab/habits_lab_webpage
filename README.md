@@ -47,3 +47,6 @@ The deployed page is a submodule of this repository.
     - The top 5 will show on home screen, the others will show when "All news" link is selected.
 
 > REMEMBER TO BUILD WITH `hugo` COMMAND AND PUSH TO SUBMODULE TO DEPLOY CHANGES
+> Github actions CI pipeline set up to build and deploy site when any changes pushed to master
+> :warning: **All changed pushed to master will trigger GitHub action to rebuild and deploy site**
+
