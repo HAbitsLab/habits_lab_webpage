@@ -9,6 +9,7 @@ The deployed page is a submodule of this repository.
 ## Overview:
 1. Download and install all prerequisites:
     - https://wowchemy.com/docs/getting-started/install-hugo-extended/
+    - This page can help with set up https://mickaellalande.github.io/post/how-to-create-an-academic-github-page-with-hugo/
 
 2. Clone this repository with all submodules:
     - `git clone --recurse-submodules https://github.com/HAbitsLab/habits_lab_webpage.git`
@@ -36,5 +37,9 @@ The deployed page is a submodule of this repository.
       - To add an image, add a jpg named "featured.jpg" to the directory
       - In the index.md edit content, i.e authors, tags
 2. Can edit existing content by editing the markdown
+
+3. The publications where generated using code from the "ConvertPublicationsAcademicHugo" directory
+    - All of the publication pdfs are located here
+    - I data from the original habits lab webpage was saved to json. This is where tags for publication pages can be changed.
 
 > REMEMBER TO BUILD WITH `hugo` COMMAND AND PUSH TO SUBMODULE TO DEPLOY CHANGES
