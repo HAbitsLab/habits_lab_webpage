@@ -21,15 +21,6 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.My research efforts focus on developing data analytic methods and systems to quantify and model behaviors through cutting-edge passive sensing technologies. My lab conducts research developing these systems and methods to understand, detect, predict and ultimately prevent behavioral risk factors (obesity, poor diet, and physical inactivity). I collaborate closely with behavioral intervention researchers in order to design theoretically useful personalized and generalized models, sensors and systems for evidence-based practice.
 
 interests:
-- Big Data
-- Cardiovascular Diseases
-- Diet and Behavioral Medicine
-- Nutrition / Dietetics
-- Obesity
-- Physical activity
-- Preventive Medicine
-- Public Health
-
 # education:
 #   courses:
 #   - course: PhD 
