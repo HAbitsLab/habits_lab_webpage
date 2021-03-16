@@ -34,7 +34,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GH_TOKEN }}
+          user_name: ${{ secrets.USERNAME }}
+          user_email: ${{ secrets.EMAIL }}
           external_repository: HAbitsLab/habitslab.github.io
           publish_dir: ./public
           publish_branch: hugo-academic-build
