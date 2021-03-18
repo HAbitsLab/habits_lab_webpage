@@ -69,5 +69,3 @@ highlight_name: false
 user_groups:
 - Researchers
 ---
-
-About me for Rawan
