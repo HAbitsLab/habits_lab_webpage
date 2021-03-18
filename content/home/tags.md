@@ -14,7 +14,17 @@ subtitle = ""
   
   # Choose how many tags you would like to display (0 = all tags)
   count = 20
+  
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
 
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 [design]
   # Minimum and maximum font sizes (1.0 = 100%).
   font_size_min = 0.7

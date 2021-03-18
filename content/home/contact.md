@@ -17,6 +17,17 @@ autolink = true
 #   2: formspree.io
 email_form = 2
 
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
+
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
+
 # Netlify form settings.
 [netlify]
   captcha = false  # Enable CAPTCHA challenge to reduce spam?
