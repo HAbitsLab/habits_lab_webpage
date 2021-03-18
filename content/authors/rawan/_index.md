@@ -69,5 +69,3 @@ highlight_name: false
 user_groups:
 - Grad Students
 ---
-
-About me for Rawan
