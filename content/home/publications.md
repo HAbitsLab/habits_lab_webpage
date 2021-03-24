@@ -71,6 +71,10 @@ subtitle = ""
  css_class = ""
 +++
 
+<head>
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+</head>
+
 {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
 {{% /callout %}}

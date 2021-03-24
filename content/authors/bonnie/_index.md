@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Alex Karr"
+title: "Bonnie Spring"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "alex"
+- "bonnie"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Research Dietitian
+role: Director, Institute for Public Health and Medicine (IPHAM)
 
 # Organizations/Affiliations
 organizations:
@@ -22,9 +22,17 @@ bio:
 
 # List each interest with a dash
 interests:
+- Interest 1
+- Interest 2
 
 education:
-
+  courses:
+  - course: Title course 1
+    institution: Name of Institution
+    year: 2012
+  - course: Title course 1
+    institution: Name of Institution
+    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -58,5 +66,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Staff
+- Group 1
+- Group 2
 ---

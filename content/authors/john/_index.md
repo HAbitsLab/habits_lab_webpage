@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Alex Karr"
+title: "John Rogers"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "alex"
+- "john"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Research Dietitian
+role: Professor of Materials Science and Engineering, Biomedical Engineering and Neurological Surgery
 
 # Organizations/Affiliations
 organizations:
@@ -22,6 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
+
 
 education:
 
@@ -58,5 +59,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Staff
+- Collaborators
 ---
