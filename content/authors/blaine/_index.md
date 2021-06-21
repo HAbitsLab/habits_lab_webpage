@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Blaine Rothroch"
+title: "Blaine Rothrock"
 
 # Username (this should match the folder name and the name on publications)
 authors:

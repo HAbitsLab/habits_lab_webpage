@@ -19,14 +19,14 @@ The deployed page is a submodule of this repository.
     - use command `hugo server`
     - you can visit local server at localhost:1313
 
-4. Build:
-    - To build static page with hugo use command `hugo`
-    - This builds site to the "public" directory where the github.io submodule is located
+4. ~~Build:~~
+    - ~~To build static page with hugo use command `hugo`~~
+    - ~~This builds site to the "public" directory where the github.io submodule is located~~
 
 4. Deploy:
-    - Commit changes to webpage edit repo
-    - cd into public directory, this is the submodule for the deployable page and add and commit changes.
-    - after a few minutes to changes should propagate to habitslab.github.io
+    - ~~Commit changes to webpage edit repo~~
+    - ~~cd into public directory, this is the submodule for the deployable page and add and commit changes after a few minutes to changes should propagate to habitslab.github.io~~
+    - **Merge or push to master and action with automatically build and deploy page to github pages.**
 
 ## Edit pages:
 1. Create new content with hugo commands
